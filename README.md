@@ -11,6 +11,18 @@ Summary: Bcrypt hashing for Flask.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-bcrypt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-bcrypt-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/version.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
+
 Installing flask-bcrypt
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `flask-bcrypt` available on your p
 ```
 conda search flask-bcrypt --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -55,6 +66,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -67,18 +79,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-bcrypt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-bcrypt-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/version.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
 
 
 Updating flask-bcrypt-feedstock
