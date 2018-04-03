@@ -14,9 +14,7 @@ Summary: Bcrypt hashing for Flask.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-bcrypt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-bcrypt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-bcrypt-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
 
 Current release info
 ====================
