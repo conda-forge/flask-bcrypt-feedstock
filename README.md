@@ -14,12 +14,15 @@ Summary: Bcrypt hashing for Flask.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/flask-bcrypt-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/flask-bcrypt-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/version.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-bcrypt/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-bcrypt)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--bcrypt-green.svg)](https://anaconda.org/conda-forge/flask-bcrypt) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-bcrypt.svg)](https://anaconda.org/conda-forge/flask-bcrypt) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-bcrypt.svg)](https://anaconda.org/conda-forge/flask-bcrypt) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-bcrypt.svg)](https://anaconda.org/conda-forge/flask-bcrypt) |
 
 Installing flask-bcrypt
 =======================
