@@ -1,44 +1,43 @@
 {% set name = "flask-bcrypt" %}
-{% set camelName = "Flask-Bcrypt" %}
-{% set bundle = "tar.gz" %}
-{% set version = "0.7.1" %}
-{% set hash_type = "sha256" %}
-{% set hash_val = "d71c8585b2ee1c62024392ebdbc447438564e2c8c02b4e57b56a4cafd8d13c5f" %}
+{% set version = "1.0.0" %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ camelName }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash_val }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Flask-Bcrypt-{{ version }}.tar.gz
+  sha256: e622fbd3b0bf63d516b8844fe3431fc30213592412b430036c3928a0c52dfb27
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3.7
     - pip
 
   run:
-    - python
+    - python >=3.7
+    - bcrypt >=3.1.1
     - flask
-    - bcrypt
 
 test:
   imports:
     - flask_bcrypt
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/maxcountryman/flask-bcrypt
   license_file: LICENSE
   license_family: BSD
-  license: BSD 3-Clause
-  summary: 'Bcrypt hashing for Flask.'
+  license: BSD-3-Clause
+  summary: Bcrypt hashing for Flask.
   dev_url: https://github.com/maxcountryman/flask-bcrypt
   doc_url: https://flask-bcrypt.readthedocs.io/en/latest/
 
