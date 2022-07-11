@@ -1,5 +1,5 @@
 {% set name = "flask-bcrypt" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Flask-Bcrypt-{{ version }}.tar.gz
-  sha256: e622fbd3b0bf63d516b8844fe3431fc30213592412b430036c3928a0c52dfb27
+  sha256: f07b66b811417ea64eb188ae6455b0b708a793d966e1a80ceec4a23bc42a4369
 
 build:
   noarch: python
