@@ -3,7 +3,7 @@ About flask-bcrypt
 
 Home: https://github.com/maxcountryman/flask-bcrypt
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-bcrypt-feedstock/blob/main/LICENSE.txt)
 
@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@xylar](https://github.com/xylar/)
 
